@@ -1,5 +1,6 @@
-Gender Classification using Transfer Learning (ResNet18)
-Overview
+****Gender Classification using Transfer Learning (ResNet18)****
+
+**Overview**
 
 This project implements a real-time gender classification system using Deep Learning, Transfer Learning, and Computer Vision.
 
@@ -15,7 +16,7 @@ Real-time visualization using OpenCV
 
 The final model achieved approximately 94% validation accuracy.
 
-Features
+**Features**
 Transfer Learning with ResNet18
 Advanced Data Augmentation
 Mixed Precision Training
@@ -26,7 +27,7 @@ OpenCV Integration
 MediaPipe Face Detection
 Confusion Matrix Evaluation
 
-Technologies Used
+**Technologies Used**
 Python
 PyTorch
 Torchvision
@@ -35,7 +36,8 @@ MediaPipe
 NumPy
 Matplotlib
 scikit-learn
-Dataset
+
+**Dataset**
 
 Dataset Used:
 UTKFace Dataset
@@ -48,7 +50,7 @@ Ethnicity
 
 For this project, only gender labels were used.
 
-Model Architecture
+**Model Architecture**
 
 The project uses:
 
@@ -62,7 +64,8 @@ Additional training optimizations include:
 ReduceLROnPlateau scheduler
 Mixed precision training
 Data augmentation pipeline
-Data Augmentation
+
+**Data Augmentation**
 
 The training pipeline includes:
 
@@ -74,7 +77,7 @@ Random Erasing
 
 These augmentations improve model robustness and generalization.
 
-Training Results
+**Training Results**
 
 Final Validation Accuracy:
 94%
@@ -86,7 +89,8 @@ Precision
 Recall
 F1 Score
 Confusion Matrix
-Real-Time Inference
+
+**Real-Time Inference**
 
 The trained model performs:
 
@@ -101,11 +105,11 @@ Webcam input
 Video file input
 
 
-Future Improvements
+**Future Improvements**
 
 Larger and more diverse datasets
 Fairness and bias evaluation
 
-Author
+**Author**
 
 Aarika Shah
